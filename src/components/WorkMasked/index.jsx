@@ -27,7 +27,7 @@ export default function Index({ setIsHovered }) {
                 {[
                   {
                     time: "NOW",
-                    role: "SeniorSoftware Engineer",
+                    role: "Senior Software Engineer",
                     company: "Netchex",
                     link: "https://www.netchex.com/",
                   },
@@ -104,10 +104,10 @@ export default function Index({ setIsHovered }) {
               <h1 className={styles.services}>
                 {[
                   {
-                    name: "Steex",
-                    stack: "ReactJs, MUI, ExpressJs",
-                    href1: "https://github.com/LoganXav/Steex",
-                    href2: "https://steex.vercel.app/",
+                    name: "Vesper",
+                    stack: "NextJs, ClaudeAPI, Tiptap",
+                    href1: "https://github.com/LoganXav/vesper",
+                    href2: "https://vesper-pi.vercel.app/",
                   },
                   // {
                   //   name: "Golfnco",
@@ -118,19 +118,19 @@ export default function Index({ setIsHovered }) {
                   {
                     name: "ReactCli",
                     stack: "NodeJs, CommanderJs, Clack",
-                    href1: "https://github.com/LoganXav/SimplifyReactCli",
+                    href1: "https://github.com/LoganXav/simplify-react-cli",
                     href2: "",
                   },
                   {
                     name: "KeniaAPI",
                     stack: "NodeJS, Typescript, ExpressJs",
-                    href1: "https://github.com/LoganXav/KeniaAPI",
+                    href1: "https://github.com/LoganXav/kenia-server",
                     href2: "",
                   },
                   {
                     name: "My Portfolio",
                     stack: "Next, Scss, Framer Motion",
-                    href1: "https://github.com/LoganXav/Logan",
+                    href1: "https://github.com/LoganXav/logan",
                     href2: "",
                   },
                 ].map(({ name, stack, href1, href2 }) => (
